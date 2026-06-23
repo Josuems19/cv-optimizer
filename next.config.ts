@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Make all pages dynamic (no static generation)
+  output: 'standalone',
 };
 
 export default nextConfig;
